@@ -68,7 +68,67 @@ const account2 = {
   locale: 'en-US',
 };
 
-const accounts = [MainAcc , account1, account2];
+const account3 = {
+  owner: 'Michael Brown',
+  movements: [4300, -1200, 3400, -500, -320, 6700, -2000, 150],
+  interestRate: 1.3,
+  pin: 3333,
+
+  movementsDates: [
+    '2019-10-15T10:25:43.511Z',
+    '2019-11-20T15:45:32.135Z',
+    '2020-01-05T09:20:14.923Z',
+    '2020-02-14T12:35:46.224Z',
+    '2020-03-30T18:50:05.586Z',
+    '2020-05-15T20:11:43.724Z',
+    '2020-06-17T07:30:56.842Z',
+    '2020-07-29T14:08:23.177Z',
+  ],
+  currency: 'GBP',
+  locale: 'en-GB',
+};
+
+const account4 = {
+  owner: 'Sarah Wilson',
+  movements: [2000, 450, -600, -100, 3400, -210, -45, 900],
+  interestRate: 1.1,
+  pin: 4444,
+
+  movementsDates: [
+    '2019-09-12T08:12:17.947Z',
+    '2019-10-23T14:20:22.123Z',
+    '2019-12-05T16:45:10.786Z',
+    '2020-02-10T11:55:32.904Z',
+    '2020-03-15T13:40:49.572Z',
+    '2020-04-20T21:30:15.123Z',
+    '2020-05-25T10:15:48.374Z',
+    '2020-06-30T18:22:56.821Z',
+  ],
+  currency: 'CAD',
+  locale: 'en-CA',
+};
+
+const account5 = {
+  owner: 'David Smith',
+  movements: [3000, 5600, -900, -250, 7500, -1300, 420, -500],
+  interestRate: 1.4,
+  pin: 5555,
+
+  movementsDates: [
+    '2019-08-10T12:30:25.945Z',
+    '2019-09-15T14:10:39.432Z',
+    '2019-11-20T19:45:29.124Z',
+    '2020-01-05T22:15:46.786Z',
+    '2020-02-28T10:50:32.311Z',
+    '2020-04-17T15:05:22.913Z',
+    '2020-06-08T09:35:47.282Z',
+    '2020-07-21T16:30:15.678Z',
+  ],
+  currency: 'AUD',
+  locale: 'en-AU',
+};
+
+const accounts = [MainAcc , account1, account2,account3,account4,account5];
 
 /////////////////////////////////////////////////
 // Elements
